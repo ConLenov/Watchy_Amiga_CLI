@@ -9,7 +9,7 @@ WatchyAmigaCLI::WatchyAmigaCLI() {};
 
 void WatchyAmigaCLI::drawWatchFace() {
     display.fillScreen(GxEPD_BLACK);
-    display.drawBitmap(0, 0, WatchyAmigaCLI_____1, 200, 200, GxEPD_WHITE);
+    display.drawBitmap(0, 0, WatchyAmigaCLI, 200, 200, GxEPD_WHITE);
     
     display.setTextColor(GxEPD_WHITE);
     display.setFont(&Px437_IBM_BIOS5pt7b);
